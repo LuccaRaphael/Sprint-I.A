@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Marcação de Ponto</title>
+    <link rel="shortcut icon" href="teachable-machine.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        video#webcam {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1>Treinamento Inteligente</h1>
+        <p id="status">Aguardando o carregamento</p>
+
+        <!-- Widget de Vídeo -->
+        <video id="webcam" autoplay></video>
+
+        <!-- Botões -->
+        <div class="mb-3">
+            <button id="enableCam" class="btn btn-primary">Ativar Webcam</button>
+            <button class="dataCollector btn btn-primary" data-1hot="0" data-name="Pessoa 1">
+                Tirar Fotos da pessoa 1
+            </button>
+            <button class="dataCollector btn btn-primary" data-1hot="1" data-name="Pessoa 2">
+                Tirar Fotos da pessoa 2
+            </button>
+            <button id="train" class="btn btn-primary">Treinar Sistema</button>
+            <button id="reset" class="btn btn-danger">Redefinir</button>
+        </div>
+
+   
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0/dist/tf.min.js" type="text/javascript"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

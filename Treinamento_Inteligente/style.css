@@ -1,0 +1,73 @@
+/* Estilo base */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte moderna e profissional */
+    margin: 0; /* Remove margem padrão */
+    padding: 2rem; /* Espaçamento interno confortável */
+    background-color: #212121; /* Preto elegante para o modo escuro */
+    color: #fff; /* Texto branco para ótima legibilidade */
+  }
+  
+  /* Título principal */
+  h1 {
+    font-weight: 900; /* Texto em negrito para destaque */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 1.5rem;
+    letter-spacing: 0.1rem; /* Aumenta o espaçamento entre letras */
+  }
+  
+  /* Vídeo responsivo */
+  video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Botão com estilo moderno */
+  button {
+    background-color: #3f51b5; /* Azul escuro vibrante */
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem; /* Cantos arredondados */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #283a7c; /* Azul escuro mais forte ao passar o mouse */
+  }
+  
+  /* Lista sem marcadores */
+  ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ol li {
+    margin-bottom: 1rem;
+  }
+  
+  /* Classe para ocultar elementos */
+  .removed {
+    display: none;
+  }
+  
+  /* Mensagem de status */
+  #status {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  /* Responsividade para telas pequenas */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  }
+  
