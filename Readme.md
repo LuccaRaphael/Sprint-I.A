@@ -4,20 +4,22 @@ A LeadTech desenvolveu a **Inteligente**, uma suíte de serviços de Inteligênc
 
 ## Conversão Inteligente
 
-- Utiliza a biblioteca Pandas para processamento de dados empresariais e Streamlit para criar visualizações interativas.
-- Transforma dados de plataformas, como planilhas do Excel e campanhas do Facebook, em visualizações claras e acessíveis.
-- Utiliza a tecnologia Llama 3 da Meta para fornecer insights valiosos e recomendações acionáveis.
+A Conversão Inteligente é uma solução desenvolvida para ajudar empresas a coletar e processar seus dados de forma eficiente, transformando-os em visualizações claras e insights valiosos. Essa ferramenta permite que as empresas:
+
+- **Coletem dados de diversas fontes:** Inclui dados de planilhas do Excel, campanhas de marketing no Facebook, entre outros.
+- **Visualizem esses dados de forma intuitiva:** Fornece gráficos e dashboards que facilitam a compreensão das informações.
+- **Obtenham recomendações acionáveis:** Utiliza algoritmos avançados para gerar insights que podem ser aplicados para melhorar estratégias empresariais.
 
 ## Treinamento Inteligente
 
-- Facilita o treinamento de modelos de reconhecimento de imagem de forma intuitiva, utilizando TensorFlow.js.
-- Permite aos usuários criar modelos de IA sem necessidade de conhecimento em programação.
-- Aplicações práticas incluem a verificação de ponto para funcionários através de reconhecimento de imagem.
+O Treinamento Inteligente foi criado para permitir que empresas treinem modelos de reconhecimento de imagem de forma simples e intuitiva, sem a necessidade de codificação. Com essa ferramenta, os usuários podem:
 
+- **Criar e treinar modelos de IA:** Mesmo sem experiência em programação, é possível desenvolver modelos personalizados para diversas aplicações.
+- **Implementar reconhecimento de imagem:** Ideal para tarefas como verificação de ponto para funcionários, onde a IA pode identificar pessoas automaticamente.
+- **Aproveitar uma interface amigável:** A plataforma é desenhada para ser acessível e fácil de usar, democratizando o acesso a tecnologias avançadas de IA.
 
 ## 1.1 Novo Video Pitch
 - [Video Pitch](https://youtu.be/zFzJcCEPr0M)
-
 
 ## 1.2 Diferenças Entre a Etapa Atual e a Proposta Inicial
 
@@ -44,6 +46,7 @@ A LeadTech desenvolveu a **Inteligente**, uma suíte de serviços de Inteligênc
 ## 1.3 Frameworks/Bibliotecas Python, APIs e Demais Recursos/Ferramentas Utilizados e Seu Funcionamento
 
 - **Pandas**: Biblioteca de Python para manipulação e análise de dados, especialmente eficaz no trabalho com tabelas e grandes conjuntos de dados. Utilizada na Conversão Inteligente para processar dados empresariais, como planilhas de Excel, permitindo a manipulação eficiente dos dados para análise e visualização.
+- **Polars**: Biblioteca de Python para manipulação eficiente de grandes conjuntos de dados. Utilizada na Conversão Inteligente para carregar e processar dados de diversas fontes, trabalhando em conjunto com o Pandas para garantir o desempenho e eficiência no processamento de dados.
 - **Streamlit**: Framework de Python para a criação de aplicativos web interativos e compartilhamento de dados. Utilizado para transformar dados processados pela biblioteca Pandas em visualizações interativas e acessíveis, permitindo que usuários visualizem dados de campanhas de marketing em gráficos e dashboards intuitivos.
 - **Llama 3 (Meta)**: Tecnologia de IA da Meta para fornecer insights e recomendações baseados em dados processados. Analisa os dados visualizados e gera insights valiosos, como recomendações para otimização de campanhas e ações para melhorar o desempenho de marketing.
 - **TensorFlow.js**: Biblioteca de JavaScript para treinamento e deployment de modelos de aprendizado de máquina no navegador. Utilizada no Treinamento Inteligente, permite aos usuários criar e treinar modelos de reconhecimento de imagem de forma intuitiva, facilitando a criação de modelos de IA sem necessidade de conhecimento técnico profundo.
@@ -61,3 +64,4 @@ A LeadTech desenvolveu a **Inteligente**, uma suíte de serviços de Inteligênc
 - **Geração de Insights**: Algoritmos de IA, como os da Llama 3, são utilizados para interpretar dados e fornecer recomendações acionáveis para os usuários, ajudando-os a tomar decisões mais informadas.
 - **Treinamento de Modelos de Reconhecimento de Imagem**: Utilizando TensorFlow.js, a plataforma permite que usuários treinem modelos de IA sem necessidade de conhecimento técnico profundo, democratizando o acesso a tecnologias avançadas de reconhecimento de imagem.
 - **Automação de Tarefas**: IA é utilizada para automatizar tarefas repetitivas e liberar tempo para atividades mais estratégicas, aumentando a eficiência e produtividade das equipes de marketing.
+
